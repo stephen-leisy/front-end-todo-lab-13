@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+.todo {
+  border: solid 2px gray;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+
+}
+.todo:hover {
+  background-color: pink;
+  color: slateblue;
+  font-weight: 900;
+}
+.completed {
+  text-decoration: line-through;
+}
